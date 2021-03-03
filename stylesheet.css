@@ -1,1 +1,19 @@
-
+#main-footer{
+  border:solid black;
+    display: block;
+    position:absolute;
+    bottom:10px;
+    left:1px;
+    width:98%;
+    margin:1%;
+    text-align:center;
+}
+ul {
+    list-style: none;
+}
+li{
+    display: inline-block;
+    text-align:center;
+    padding-right:60px;
+    list-style: none;
+}
