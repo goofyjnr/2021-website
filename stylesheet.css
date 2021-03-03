@@ -1,3 +1,16 @@
+/*my style sheet for my website */
+
+:root {
+    /*global colors for the site*/
+    --middle-blue-green:#95D9DA;
+    --maroon:#A53860;
+    --blue-bell:#a491d3;
+    --languid-lavender:#d2c8e9;
+    --brand-main:#ffffff;
+    --apricot:#fcc8b2;
+    --misty-rose:#ffebe7;
+}
+
 #main-footer{
   border:solid black;
     display: block;
@@ -7,6 +20,7 @@
     width:98%;
     margin:1%;
     text-align:center;
+    z-index: 2;
 }
 ul {
     list-style: none;
