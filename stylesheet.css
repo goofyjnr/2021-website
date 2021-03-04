@@ -11,49 +11,69 @@
     --misty-rose:#ffebe7;
 }
 
+#main-body{ /*The colour of the main page */
+  background:var(--brand-main);
+}
+
+/*code for the banner */
+#banner{
+  border:solid black;
+  display: block;
+  margin-left:1%;
+  margin-right:1%;
+  width:97%;
+  background:var(--middle-blue-green);
+}
+#shop-name{
+  text-align:center;
+}
+/*end of banner code */
+
+/*the code under this all relate to the footer */
 #main-footer{
   border:solid black;
-    display: block;
-    position:absolute;
-    bottom:10px;
-    left:1px;
-    width:98%;
-    margin:1%;
-    text-align:center;
-    z-index: 2;
-    background:var(--maroon);
+  display: block;
+  position:absolute;
+  bottom:10px;
+  left:1px;
+  width:98%;
+  margin:1%;
+  text-align:center;
+  z-index: 2;
+  background:var(--maroon);
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 li{
-    display: inline-block;
-    text-align:center;
-    padding-right:60px;
-    list-style: none;
+  display: inline-block;
+  text-align:center;
+  padding-right:60px;
+  list-style: none;
 }
 #plz-buy-things {
-    position:absolute;
-    z-index: 3;
-    right: -150px;
-    bottom: px;
-    background-color: var(--apricot);
-    border: solid var(--blue-bell) 3px;
-    border-radius: 100px;
-    width: 100px;
-    animation: dropdown 7s infinite;
-    animation-direction: alternate;
-    animation-delay: 20s;
-    padding: 4px;
+  position:absolute;
+  z-index: 3;
+  right: -150px;
+  bottom: px;
+  background-color: var(--apricot);
+  border: solid var(--blue-bell) 3px;
+  border-radius: 100px;
+  width: 100px;
+  animation: dropdown 7s infinite;
+  animation-direction: alternate;
+  animation-delay: 20s;
+  padding: 4px;
 }
 @keyframes dropdown {
-    0% {
-        right: -150px;
-    }
-    50%{
-        right: 20px;
-    }
-    100% {
-        right: 20px;
-    }
+  0% {
+    right: -150px;
+  }
+  50%{
+    right: 20px;
+  }
+  100% {
+    right: 20px;
+  }
 }
+/*End of footer code */
