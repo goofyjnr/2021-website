@@ -29,18 +29,19 @@
 }
 /*end of banner code */
 
-/*the code under this all relate to the footer */
-#main-footer{
+/*top-nav bar code */
+#top-nav{
+  position: sticky ;
+  top:2px;
+  margin-top:5px;
   border:solid black;
   display: block;
-  position:absolute;
-  bottom:10px;
-  left:1px;
-  width:98%;
+  width:97%;
   margin:1%;
   text-align:center;
   z-index: 2;
   background:var(--maroon);
+  overflow: hidden;
 }
 ul {
   list-style: none;
@@ -51,18 +52,42 @@ li{
   padding-right:60px;
   list-style: none;
 }
+/*end of top-nav bar*/
+
+/*main content*/
+#main-content{
+  padding:3%;
+  width:100;
+  
+}
+.flex-container{
+  display:flex;
+  flex-wrap: wrap;
+}
+.small-product-tile{
+  background:var(--misty-rose);
+  width:48%;
+  height:25%;
+  margin:1%;
+  text-align:center;
+  padding-top:20%;
+  padding-bottom:20%;
+}
+/*main content end */
+
+
 #plz-buy-things {
   position:absolute;
   z-index: 3;
   right: -150px;
-  bottom: px;
+  bottom: 100px;
   background-color: var(--apricot);
   border: solid var(--blue-bell) 3px;
   border-radius: 100px;
   width: 100px;
   animation: dropdown 7s infinite;
   animation-direction: alternate;
-  animation-delay: 20s;
+  animation-delay: 1s;
   padding: 4px;
 }
 @keyframes dropdown {
