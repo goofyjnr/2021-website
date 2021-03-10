@@ -29,10 +29,10 @@
 }
 /*end of banner code */
 
-/*top-nav bar code */
+/*nav bar code */
 #top-nav{
   position: sticky;
-  top: 2px;
+  top: 0px;
   list-style-type: none;
   margin-top:5px;
   padding: 0;
@@ -41,20 +41,20 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border: solid black 1p;
+  border: solid black;
 }
 
 ul {
   list-style: none;
 }
-ul.onhover{
-  
-}
-li{
+a{
   display: inline-block;
   text-align:center;
-  padding-right:60px;
+  padding:10px;
   list-style: none;
+}
+a:hover{
+  background:gray;
 }
 /*end of top-nav bar*/
 
@@ -72,7 +72,9 @@ li{
   height:200px;
   display:inline-block;
   margin:2%;
+  box-shadow:0px 3px 10px gray;
 }
+
 /*main content end */
 
 
@@ -85,7 +87,7 @@ li{
   border: solid var(--blue-bell) 3px;
   border-radius: 100px;
   width: 100px;
-  animation: right-slide 7s infinite;
+  animation: right-slide 7s 4;
   animation-direction: alternate;
   animation-delay: 1s;
   padding: 4px;
