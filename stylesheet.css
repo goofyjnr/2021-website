@@ -10,7 +10,6 @@
     --apricot:#fcc8b2;
     --misty-rose:#ffebe7;
 }
-
 #main-body{ /*The colour of the main page */
   background:var(--brand-main);
   max-width:95%;
@@ -66,6 +65,9 @@ a:hover{
 .links{
   color:black;
 }
+#search{
+  width:80px;
+}
 /*end of top-nav bar*/
 
 /*main content*/
@@ -117,4 +119,4 @@ a:hover{
     right: 20px;
   }
 }
-/*End of footer code */
+
