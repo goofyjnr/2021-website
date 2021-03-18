@@ -74,7 +74,7 @@ li{
 }
 /*end of top-nav bar*/
 
-/*main content of the first page*/
+/*main page content of the first page*/
 .main-content{
   padding:3px;
   display: flex;
@@ -115,7 +115,16 @@ li{
 #cat-product{
   width:100%;
 }
-/*main content end */
+/*main page content end */
+
+/*Help page*/
+#help-content{
+  border:solid black 2px;
+  margin-top:1%;
+  padding:50px;
+  background:var(--misty-rose);
+}
+/*Help page end*/
 
 /*product template page*/
 .large-tile{
@@ -124,8 +133,19 @@ li{
   margin-top:2%;
   padding:3%;
 }
-
+.product-title-template{
+  font-size:40px;
+}
+.product-text-template{
+  font-size:30px;
+}
+.product-price-template{
+  font-size:30px;
+  text-align:right;
+  margin-right:2%;
+}
 /*product template end*/
+
 #plz-buy-things {
   position:absolute;
   z-index: 3;
