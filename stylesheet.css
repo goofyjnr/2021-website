@@ -10,6 +10,16 @@
     --apricot:#fcc8b2;
     --misty-rose:#ffebe7;
 }
+
+/*functions that I used more then once so I can change them easily*/
+.shadows{
+  box-shadow:0px 3px 15px gray;
+}
+.round-corners{
+  border-radius:10px;
+}
+/**/
+
 #main-body{ /*The colour of the main page */
   background:var(--brand-main);
   max-width:95%;
@@ -24,7 +34,6 @@
   border:solid black;
   display: block;
   background:var(--middle-blue-green);
-  box-shadow:0px 3px 15px gray;
   text-align:center;
 }
 #shop-name{
@@ -48,8 +57,6 @@
   justify-content: center;
   flex-wrap: wrap;
   border: solid black;
-  box-shadow:0px 3px 10px gray;
-  border-radius:10px;
 }
 
 ul {
@@ -97,7 +104,6 @@ li{
   text-align:center;
   text-decoration:none;
   Color:black;
-  border-radius:10px;
   overflow:hidden;
 }
 .tile:hover{
@@ -119,7 +125,6 @@ li{
 }
 .product-img{
   width:100%;
-  border-radius:10px;
 }
 /*main page content end */
 
@@ -138,7 +143,7 @@ li{
   margin:3%;
   margin-top:2%;
   padding:3%;
-  border-radius:10px;
+ 
 }
 .product-title-template{
   font-size:40px;
@@ -201,10 +206,8 @@ li{
   width:100%;
   background:var(--middle-blue-green);
   color:white;
-  border-radius:5px;
   text-align:center;
   flex-wrap: nowrap;
-  box-shadow:0px 3px 15px gray;
   border:solid black;
   padding-top:10px;
   padding-bottom:10px;
@@ -235,7 +238,7 @@ li{
 }
 
 /*for smaller screens*/
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
   .banner{
     display:none;
   }
